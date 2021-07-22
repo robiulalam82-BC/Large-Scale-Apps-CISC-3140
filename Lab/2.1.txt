@@ -1,0 +1,46 @@
+svnadmin create Lab2.1
+ls -l Lab2.1/
+
+
+drwxr-xr-x. 2 robiu cis 4096 Jul 21 04:38 conf
+drwxr-sr-x. 6 robiu cis 4096 Jul 21 04:38 db
+-r--r--r--. 1 robiu cis    2 Jul 21 04:38 format
+drwxr-xr-x. 2 robiu cis 4096 Jul 21 04:38 hooks
+drwxr-xr-x. 2 robiu cis 4096 Jul 21 04:38 locks
+-rw-r--r--. 1 robiu cis  229 Jul 21 04:38 README.txt
+
+
+cd Lab2.1/
+pwd
+>>/users1/st/robiu/Lab2.1
+
+
+svn checkout file://robiu/st/robiu/Lab2.1
+ls
+>>
+
+cd Lab2.1/
+pwd
+>>/users1/st/robiu/Lab2.1
+
+mkdir working_folders
+svn checkout file:///users1/st/robiu/Lab2.1
+ls
+>>Lab2.1
+cd Lab2.1
+touch helloworld.py
+nano helloworld.py
+(Python) print("Hello World")
+
+svn add hello_world.py
+>>A         hello_world.py
+
+svn commit -m "hello world | added"
+
+### Making Modifications
+
+nano hello_world.py
+
+>>>print("Hello World")
+
+
