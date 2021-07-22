@@ -1,0 +1,34 @@
+  643  svnadmin create Lab2.1
+  644  ls
+  645  ls -l Lab2.1/
+  646  cd Lab2.1/
+  647  ls
+  648  pwd
+  649  ls
+  650  cd ..
+  651  ls
+  652  svn checkout file:///users1/st/nwang/Lab2.1
+  653  ls
+  654  cd Lab2.1/
+  655  ls
+  656  cd ..
+  657  ls
+  658  mkdir working_folders
+  659  cd work
+  660  cd working_folders/
+  661  ls
+  662  svn checkout file:///users1/st/nwang/Lab2.1
+  663  ls
+  664  cd Lab2.1/
+  665  ls
+  666  touch hello_world.py
+  667  nano hello_world.py 
+  668  svn add hello_world.py 
+  669  svn commit -m "hello world | added"
+  670  nano hello_world.py 
+  671  svn commit "hello world | Modifications"
+  672  svn commit -m "hello world | Modifications"
+  673  ls
+  674  history > print.txt
+  675  ls
+  676  nano print.txt 
