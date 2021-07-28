@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<body style="text-align: center;">
+
+   <h1 style = "color: green">
+     Robiul Alam
+     CISC 3140
+     SUMMER 2021
+    </h1>
+
+  <p>
+    This is type box and we could type on it. Therefore, The program would be count.
+   </p>
+
+
+  <textarea id= "inputField" rows=30 cols=90>
+  </textarea>
+  <br><br>
+
+  <button onclick="countWords()">
+  Count Words
+  </button>
+  <br><br>
+
+
+<p> Word Count:
+   <span id="show">0</span>
+ </p>
+
+<script>
+      
+       function countWords()
+       {
+
+                // Get the input text value
+                var text = document.getElementById("It is input Field").value;
+
+                //Initialize the word counter
+                var numWords = 0;
+
+
+//Loop through the text and count spaces in it
+//Loop through the text and count spaces in it
+
+
+for (var i = 0; i < text.length; i++){
+	var currentCharacter = text[i];
+
+
+//if the character is a space
+if (currentCharacter == " ")
+{
+	numWords +=1;
+}
+}
+
+//add 1 to make the count equal to the number of words
+
+numWords +=1;
+
+
+
+//Display it as output
+document.getElementById("show")
+    .innerHTML = numWords;
+
+}
+  </script>
+
+</body>
+
+</html>
+
+
+
+
