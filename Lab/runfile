@@ -1,0 +1,11 @@
+# Runs the script and then deletes the .csv file
+target: script.sh movies.csv
+	sh Lab3.1script.sh
+	rm movies.csv
+
+# Fetches the requisite files from their respective repositories
+movies.csv:
+	wget https://github.com/robiulalam82-BC/Large-Scale-Apps-CISC-3140.git/movies.csv
+
+script.sh:
+	wget https://github.com/robiulalam82-BC/Large-Scale-Apps-CISC-3140.git/Lab3.1Scripts.sh
