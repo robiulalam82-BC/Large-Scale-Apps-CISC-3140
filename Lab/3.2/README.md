@@ -1,14 +1,14 @@
 
-### Available Credits, Resources and Dependencies:
+### The potential source code are available to this links:
 - Bootstrap 4.3 https://getbootstrap.com
 - Bootstrap Toggle: https://gitbrent.github.io/bootstrap4-toggle/
 - Timing: https://www.w3schools.com/js/js_timing.asp
-- How to read cookies: https://stackoverflow.com/questions/5142337/read-a-javascript-cookie-by-name
+
 
         
-### Encouragement
+### Word Counter
 The Most Dangerous Writting App: https://www.squibler.io/dangerous-writing-prompt-app
 
-### Features:
+### Features and available:
 - Word counter: count your words.
 - Word target: write down your target amount of words.
