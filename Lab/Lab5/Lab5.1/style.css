@@ -1,0 +1,66 @@
+body 
+{
+    background-image: url('sam.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: rgb(35, 100, 187);
+
+}
+
+h1
+{
+    color: rgb(112, 14, 115);
+    font-family: 'serif';
+    font-size: 55px;
+}
+
+a:link
+{
+    color: rgb(19, 204, 80);
+}
+
+table,td,th
+{
+    border:4px black;
+    border-collapse: collapse;
+    width: 50%;
+    word-wrap: break-word;
+    font-family: 'serif;';
+}
+
+tr:nth-child(1)
+{
+    background-color:rgba(255, 99, 71, 0.5);
+}
+
+tr:nth-child(even)
+{
+    background-color:rgb(255, 99, 71);
+    color: black;
+}
+
+tr:nth-child(3)
+{
+    background-color:black;
+}
+
+tr:nth-child(5)
+{
+    background-color:black;
+}
+
+tr:nth-child(7)
+{
+    background-color:black;
+}
+
+tr:nth-child(9)
+{
+    background-color:black;
+}
+
+tr:nth-child(11)
+{
+    background-color:black;
+}
